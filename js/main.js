@@ -66,6 +66,78 @@ const products = [
     price: "18.600.000",
     type:'MSI',
   },
+  {
+    id: 11,
+    name: "LG Gram 2023 16Z90R-G.AH76A5",
+    price: "37.490.000",
+    type:'LG',
+  },
+  {
+    id: 12,
+    name: "Laptop LG Gram 14Z90R-G.AH75A5",
+    price: "33.990.000",
+    type:'LG',
+  },
+  {
+    id: 13,
+    name: "Laptop LG Gram 14ZD90N-V.AX55A5 ",
+    price: "26.590.000",
+    type:'LG',
+  },
+  {
+    id: 14,
+    name: "Laptop MSI GL65 9SDK 054VN",
+    price: "29.990.000",
+    type:'MSI',
+  },
+  {
+    id: 15,
+    name: "Laptop MSI Katana 15 B13VGK-1211VN",
+    price: "37.990.000 ",
+    type:'MSI',
+  },
+  {
+    id: 16,
+    name: "Laptop MSI Modern 15 B12MO-487VN ",
+    price: "16.990.000",
+    type:'MSI',
+  },
+  {
+    id: 17,
+    name: "Laptop Gaming Acer Nitro V ANV15-51-55CA NH.QN8SV.004",
+    price: "26.990.000 ",
+    type:'acer',
+  },
+  {
+    id: 18,
+    name: "Laptop Gaming Acer Aspire 7 A715-76G-5806 - NH.QMFSV.002",
+    price: "18.590.000",
+    type:'acer',
+  },
+  {
+    id: 19,
+    name: "Laptop Gaming Acer Nitro 5 Tiger AN515-58-52SP NH.QFHSV.001",
+    price: "21.490.000",
+    type:'acer',
+  },
+  {
+    id: 20,
+    name: "Laptop HP 14S-dq5100TU 7C0Q0PA",
+    price: "13.490.000",
+    type:'HP',
+  },
+  {
+    id: 21,
+    name: "Laptop HP Pavilion 15-eg3093TU 8C5L4PA",
+    price: "17.990.000",
+    type:'HP',
+  },
+  {
+    id: 22,
+    name: "Laptop HP ENVY X360 13-bf0090TU 76B13PA",
+    price: "27.490.000",
+    type:'HP',
+  },
 ];
 
 // New Products
@@ -125,7 +197,7 @@ products.forEach((product, index) => {
 });
 // Acer Products
 products.forEach((product, index) => {
-  if ((index <= 9) && (product.type === 'acer')) {
+  if ((index <= 20) && (product.type === 'acer')) {
     console.log(product)
     acerProducts ? (acerProducts.innerHTML += `
         <li class="product">
@@ -144,7 +216,7 @@ products.forEach((product, index) => {
 });
 // HP Products
 products.forEach((product, index) => {
-  if ((index <= 9) && (product.type === 'HP')) {
+  if ((index <= 25) && (product.type === 'HP')) {
     console.log(product)
     hpProducts ? (hpProducts.innerHTML += `
         <li class="product">
@@ -163,7 +235,7 @@ products.forEach((product, index) => {
 });
 // LG Products
 products.forEach((product, index) => {
-  if ((index <= 9) && (product.type === 'LG')) {
+  if ((index <= 12) && (product.type === 'LG')) {
     console.log(product)
     lgProducts ? (lgProducts.innerHTML += `
         <li class="product">
@@ -182,7 +254,7 @@ products.forEach((product, index) => {
 });
 // MSI Products
 products.forEach((product, index) => {
-  if ((index <= 9) && (product.type === 'MSI')) {
+  if ((index <= 20) && (product.type === 'MSI')) {
     console.log(product)
     msiProducts ? (msiProducts.innerHTML += `
         <li class="product">
