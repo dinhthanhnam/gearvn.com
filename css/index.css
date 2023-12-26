@@ -141,3 +141,55 @@ nav img {
   height: 100%;
   padding: 5px 14px;
 }
+.nav-line-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #4eac4b;
+}
+.nav-line-2 span {
+  background-color: #4eac4b;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  height: 100%;
+  padding: 5px 14px;
+}
+.nav-line-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #4eac4b;
+}
+.nav-line-3 span {
+  background-color: #4eac4b;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  height: 100%;
+  padding: 5px 14px;
+}
+.info,
+.policy,
+.fanpage {
+  font-size: 18px;
+  color: #fff;
+}
+footer {
+  background-color: #333333;
+}
+.info div,
+.policy div {
+  color: white !important;
+  font-size: 16px ;
+}
+.policy div {
+  border-bottom: 0.1px solid #fff;
+}
+.ads img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
