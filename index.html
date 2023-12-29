@@ -1,62 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav>
-      <div class="hamberger-menu">
-        <img src="/img/navigation/hamburger.png" alt="" />
-      </div>
-      <div class="logo">
-        <h3>Linkien</h3>
-      </div>
-      <button class="shopping-cart">
-        <img src="/img/navigation/shopping-cart.png" alt="" />
-      </button>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/b041ca492a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <input class="checkbox" type="checkbox" />
+    <img src="/img/navigation/hamburger.png" alt="" />
+    <ul class="menu-items">
+      <li class="logo-desktop">
+        <a href="">
+          <h3>
+            Nhóm 15 Shop
+          </h3>
+        </a>
+
+      </li>
+      <li>
+        <a href="/index.html">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          Trang chủ
+        </a>
+      </li>
+      <li><a href="/acer.html">
+          <i class="fa-solid fa-laptop"></i>Laptop Acer</a>
+      </li>
+      <li><a href="/asus.html">
+          <i class="fa-solid fa-laptop"></i>Laptop Asus</a>
+      </li>
+      <li><a href="/HP.html">
+          <i class="fa-solid fa-laptop"></i>Laptop HP</a>
+      </li>
+      <li><a href="/LG.html">
+          <i class="fa-solid fa-laptop"></i>Laptop LG</a>
+      </li>
+      <li><a href="/MSI.html">
+          <i class="fa-solid fa-laptop"></i>Laptop MSI</a>
+      </li>
+      <li><a href="/login.html">
+        <i class="fa-solid fa-user"></i>Đăng nhập & Đăng ký</a>
+      </li>
+    </ul>
+    <div class="logo">
+      <h3>Nhóm 15 Shop</h3>
+    </div>
+    <button class="shopping-cart">
+      <img src="/img/navigation/shopping-cart.png" alt="" />
+    </button>
+  </nav>
+  
+  <div class="frame">
     <!-- banner -->
     <div class="banner">
-      <img src="/img/banner/banner.jpg" alt="" />
 
       <div class="banner-info">
+        <img src="/img/banner/banner.jpg" alt="" />
         <ul>
           <li>
-            <a href=""
-              >Lên đời Laptop <br />
-              Giá ưu đãi</a
-            >
+            <a href="">Lên đời Laptop <br />
+              Giá ưu đãi</a>
           </li>
           <li>
             <a href="">Trọn bộ máy tính <br />giá rẻ</a>
           </li>
           <li>
-            <a href=""
-              >Lên đời Laptop <br />
-              Giá ưu đãi</a
-            >
+            <a href="">Lên đời Laptop <br />
+              Giá ưu đãi</a>
           </li>
         </ul>
       </div>
+      <div class="news">
+        <div class="nav-line-1">
+          <span>LAPTOP ASUS</span>
+        </div>
+        <ul>
+          <li>
+            <a href="">
+              <img src="/img/banner/news-1.jpg" alt="">
+              <p>
+                Giá iPhone XS và iPhone XR tại VN được tiết lộ: Thấp nhất 22 triệu, cao nhất 43 triệu, bán cuối tháng 10
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/img/banner/news-2.jpg" alt="">
+              <p>
+                Cận cảnh iPhone X Plus sắp ra mắt có 3 camera sau “đẹp không thể kìm lòng”
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/img/banner/news-3.jpg" alt="">
+              <p>
+                Cách khắc phục lỗi iPhone bị nóng, văng ứng dụng và tự động khóa màn hình!
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
     <!-- new product -->
-    <div class="nav-line">
-      <span>Sản phẩm mới</span>
-    </div>
-    <ul class="new-products"></ul>
+
     <div class="ads">
-      <img src="img/product/ads.jpg" alt="" />
-      <!-- hot product -->
+      <div>
+        <div class="nav-line">
+          <span>Sản phẩm mới</span>
+        </div>
+        <ul class="new-products"></ul>
+      </div>
+      <img class="img-ads" src="img/product/ads.jpg" alt="" />
+    </div>
+    <!-- hot product -->
     <div class="nav-line-1">
       <span>HÀNG HOT MỚI VỀ</span>
     </div>
@@ -71,37 +137,39 @@
       <span>LAPTOP ACER</span>
     </div>
     <ul class="acer-products"></ul>
+  </div>
 
-    <footer>
-      <div class="info" 0>
-        <h4>Thông tin</h4>
-        <div>Cơ sở 1: 242 đường Láng</div>
-        <div>Cơ sở 2: 12 chùa Bộc</div>
-        <div>Cơ sở 2: 12 chùa Bộc</div>
-        <div>Cơ sở 2: 12 chùa Bộc</div>
-        <div>Cơ sở 2: 12 chùa Bộc</div>
-      </div>
-      <div class="policy">
-        <h4>Chính sách</h4>
-        <div>Chính sách đổi trả hàng</div>
-        <div>Chính sách bảo hành</div>
-        <div>Chính sách bảo hành</div>
-        <div>Chính sách bảo hành</div>
-      </div>
-      <div class="fanpage">Fanpage</div>
+  <footer>
+    <div class="info" 0>
+      <h4>Thông tin</h4>
+      <div>Cơ sở 1: 242 đường Láng</div>
+      <div>Cơ sở 2: 12 chùa Bộc</div>
+      <div>Cơ sở 2: 12 chùa Bộc</div>
+      <div>Cơ sở 2: 12 chùa Bộc</div>
+      <div>Cơ sở 2: 12 chùa Bộc</div>
+    </div>
+    <div class="policy">
+      <h4>Chính sách</h4>
+      <div>Chính sách đổi trả hàng</div>
+      <div>Chính sách bảo hành</div>
+      <div>Chính sách bảo hành</div>
+      <div>Chính sách bảo hành</div>
+    </div>
+    <div class="fanpage">
+      <h4 style="padding-bottom: 15px;">
+        Fanpage
+      </h4>
+
       <iframe
-        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgearvnhcm&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-        width="340"
-        height="331"
-        style="border: none; overflow: hidden"
-        scrolling="no"
-        frameborder="0"
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgearvnhcm&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="340" height="331" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
         allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-      ></iframe>
-    </footer>
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+  </footer>
 
-    <!--  -->
-    <script src="/js/main.js"></script>
-  </body>
+  <!--  -->
+  <script src="/js/main.js"></script>
+</body>
+
 </html>
