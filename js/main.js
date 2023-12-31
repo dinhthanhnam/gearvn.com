@@ -162,7 +162,7 @@ function nextImage() {
   showImage(currentImageIndex);
 }
 
-setInterval(nextImage, 3000);
+setInterval(nextImage, 5000);
 
 // New Products
 products.forEach((product, index) => {
