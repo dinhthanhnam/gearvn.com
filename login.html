@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,11 +66,11 @@
                 <input type="text" placeholder="Nhập email của bạn">
                 <input type="password" placeholder="Nhập mật khẩu">
                 <a href="#">Quên mật khẩu?</a>
-                <input type="button" class="button" value="Đăng nhập">
+                <input type="button" class="button" value="Đăng nhập" onclick="successHandler()">
             </form>
             <div class="signup">
                 <span class="signup">Không có tài khoản?
-                    <label for="check">Đăng ký</label>
+                    <label for="check" onclick='handleCheck()'>Đăng ký</label>
                 </span>
             </div>
         </div>
@@ -79,12 +80,25 @@
                 <input type="text" placeholder="Nhập email của bạn">
                 <input type="password" placeholder="Tạo mật khẩu">
                 <input type="password" placeholder="Nhập lại mật khẩu">
-                <input type="button" class="button" value="Đăng ký">
+                <input type="button" class="button" value="Đăng ký" onclick="successHandler()">
             </form>
             <div class="signup">
                 <span class="signup">Đã có tài khoản
-                    <label for="check">Đăng nhập</label>
+                    <label for="check" onclick='handleCheck()'>Đăng nhập</label>
                 </span>
+            </div>
+        </div>
+        <div class="login-success">
+            <div class="card">
+                <div
+                    style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;display: flex;align-items: center;">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                </div>
+                <!-- <h1>Success</h1>
+                <p>We received your purchase request;<br /> we'll be in touch shortly!</p> -->
             </div>
         </div>
     </div>
@@ -110,9 +124,10 @@
                 Fanpage
             </h4>
             <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgearvnhcm&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                ></iframe>
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgearvnhcm&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"></iframe>
         </div>
     </footer>
+    <script src="/js/main.js"></script>
 </body>
+
 </html>
